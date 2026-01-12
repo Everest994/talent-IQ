@@ -61,7 +61,7 @@ This platform supports **real-time technical interviews and solo coding practice
 
 ---
 
-### Installation
+## Installation
 
 1. **Clone the repository**
 
